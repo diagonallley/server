@@ -5,7 +5,7 @@ const express = require("express"); // Common JS modules
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send({ hi: "There" })
+    res.send({ bye: "There" })
 
 })
 
